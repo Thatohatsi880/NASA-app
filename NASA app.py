@@ -11,3 +11,7 @@ WIDTH = 900
 
 root = tk.Tk()
 root.title('Welcome to my planet app')
+
+canvas = tk.Canvas(root, height=HEIGHT, width=WIDTH, bg='#171717')
+canvas.pack()
+mainloop()
